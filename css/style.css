@@ -106,7 +106,10 @@
 .appointment{
     display: none;
 }
-
+#thumbs{
+    font-size: 50px;
+    color: blue;
+}
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link  {
         margin-right: 0;
