@@ -131,7 +131,7 @@
     border-color:rgb(238, 238, 245);
     z-index: 3;
     }
-    form{
+    .form{
         display: flex;
         justify-content: center;
         position: absolute;
@@ -149,7 +149,7 @@
         height: 55px;
         font-size: 25px;
         color: white;
-        background-color: rgb(162, 162, 199);
+        background-color: rgba(56, 56, 217, 0.938);
     }
     .container{
         display: flex;
@@ -171,6 +171,7 @@
         font-size: 30px;
         width: 50%;
         font-style: normal;
+        margin-left: -60%;
     }
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link  {
