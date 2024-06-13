@@ -160,15 +160,14 @@
     .h1{
         position: absolute;
         top: 10%;
-        padding-right: 100%;
         font-size: 50px;
-        width: 50%;
+        width: 60%;
         font-style: italic;
+        margin-left: -60%;
     }
     .h2{
         position: absolute;
         top: 35%;
-        padding-right: 100%;
         font-size: 30px;
         width: 50%;
         font-style: normal;
