@@ -161,11 +161,11 @@
     }
     .h1{
         position: absolute;
-        top: 10%;
+        top: 32%;
         font-size: 50px;
         width: 60%;
         font-style: italic;
-        margin-left: -60%;
+        margin-left: -59%;
     }
     .h2{
         position: absolute;
@@ -174,9 +174,16 @@
         width: 50%;
         font-style: normal;
         margin-left: -60%;
+        padding-top: 6%;
     }
     .left{
         padding-left: 30%;
+    }
+    #icon{
+        margin-left: -810px;
+        color: blue;
+        font-size: 70px;
+        margin-top: 60px;
     }
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link  {
