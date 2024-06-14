@@ -8,6 +8,10 @@ app.get('/', (req,res)=>{
 res.sendFile(__dirname +"/public/index.html");
 });
 
+app.get('/contact',(req,res)=>{
+    res.sendFile(__dirname + "/public/contact.html")
+});
+
 app.listen(port,()=>{
 console.log('Server is running on Port 4000')
 });
