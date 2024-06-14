@@ -185,6 +185,9 @@
         font-size: 70px;
         margin-top: 60px;
     }
+    .body{
+        background-color: purple;
+    }
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link  {
         margin-right: 0;
