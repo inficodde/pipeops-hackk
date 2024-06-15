@@ -13,6 +13,10 @@ app.get('/contact',(req,res)=>{
 app.get('/appointment',(req,res)=>{
     res.sendFile(__dirname + "/public/appointment.html")
 });
+app.get('/admin',(req,res)=>{
+    res.sendFile (__dirname + "/public/login.html")
+});
+//Listener
 app.listen(port,()=>{
 console.log('Server is running on Port 4000')
 });
