@@ -134,7 +134,7 @@
 .se-row{
     display: flex;
     flex-direction: row;
-    gap: 32px;
+    gap: 35px;
 }
 .th-row{
     display: flex;
@@ -145,6 +145,31 @@
     display: flex;
     flex-direction: row;
     gap: 35px;
+}
+.fi-row{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+.si-row{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+.sev-row{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+.background{
+    background-color: rgb(239, 239, 247);
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 242);
 }
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link  {
