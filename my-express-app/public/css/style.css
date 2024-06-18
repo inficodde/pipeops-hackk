@@ -126,6 +126,26 @@
 .body{
         background-color: blue;
 }
+.f-row{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+.se-row{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+.th-row{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+.fo-row{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link  {
         margin-right: 0;
