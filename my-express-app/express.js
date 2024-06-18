@@ -44,14 +44,18 @@ app.get('/appointment', (req, res) => {
 app.get('/admin', (req, res) => {
     res.sendFile(__dirname + "/public/login.html");
 });
-
+app.get ('/dashboard',(req,res) =>{
+res.sendFile(__dirname + "/public/admin.html");
+});
 // HTTP POST route
 app.post('/success', (req, res) => {
     // Logging the request body for debugging
     console.log(req.body);
     res.sendFile(__dirname + "/public/success.html");
 });
-
+app.post ('/admin',(req,res)=>{
+    res.redirect('/dashboard')
+})
 // HTTP GET route to render EJS template with data
 app.get('/data', (req, res) => {
     // Assuming data comes from query parameters for GET requests
