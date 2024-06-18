@@ -169,7 +169,26 @@
     flex-direction: row;
     gap: 45px;
     padding-left: 10px;
-    background-color: rgb(233, 233, 242);
+}
+.left{
+    position: absolute;
+    top: 90%;
+    padding-left: 10%;
+    gap: 80%;
+}
+#card{
+    color:blue;
+    font-size: 60px;
+}
+#username{
+  width: 30%;
+}
+#password{
+    width: 30%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
 }
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link  {
