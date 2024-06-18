@@ -174,21 +174,48 @@
     position: absolute;
     top: 90%;
     padding-left: 10%;
-    gap: 80%;
+    gap: 80px;
 }
 #card{
     color:blue;
     font-size: 60px;
+    padding-left: 30%;
 }
 #username{
-  width: 30%;
+  width: 190%;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  border-color:white ;
 }
 #password{
-    width: 30%;
+    width: 190%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
 }
-.form{
+.container{
     display: flex;
     flex-direction: column;
+    gap: 15px;
+}
+.button{
+   width: 120%;
+   border-radius: 10px;
+   height: 40px;
+   font-size: 20px;
+   color: white;
+   background-color: rgb(9, 9, 250);
+}
+.form{
+    position: absolute;
+    top: 96%;
+    padding-left: 60%;
+    border-radius: 30%;
+}
+.back{
+    background-color: rgb(42, 42, 140);
+    
 }
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link  {

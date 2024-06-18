@@ -83,7 +83,7 @@
                 <a href="/appointment" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Appointment<i class="fa fa-arrow-right ms-3"></i></a>
                     </div>
                     <div class="outer">
-                        <a href="/appointment.html" class="appointment" >Appointment<i class="fa fa-arrow-right ms-3" id="arrow"></i></a>
+                        <a href="/appointment" class="appointment" >Appointment<i class="fa fa-arrow-right ms-3" id="arrow"></i></a>
                     </div>
                 </div>
                 
@@ -106,20 +106,20 @@
 
     <!-- Form Start -->
    
-    
+    <div class="back">
         <div class="left">
             <i class="fa fa-id-card" id="card"></i>
             <h1>Sign-In</h1>
-            <h2>This is for Only Admins</h2>
         </div>
-        <form action="/dashboard" class="form">
+        
+        <form class="form" action="/dashboard" method="post">
         <div class="container">
             <input type="text" name="username" placeholder="Username" id="username">
             <input type="password" name="password" placeholder="Password" id="password">
             <button class="button">Log-In</button>
         </div>
-        
       </form>  
+    </div>
     <!-- Page End -->
         
 
