@@ -3,17 +3,6 @@ const app = express();
 const port = 4000;
 const bodyParser = require('body-parser');
 const { name } = require('ejs');
-// const data = {
-//     name: 'Alice',
-//     age: 25,
-//     address: {
-//         street: '123 Main St',
-//         city: 'Wonderland'
-//     },
-//     hobbies: ['reading', 'chess'],
-//     circularRef: {}
-// };
-// data.circularRef.self = data; // Circular reference
 
 // Middleware to serve static files
 app.use(express.static(__dirname + "/public"));
@@ -59,9 +48,6 @@ app.post ('/admin',(req,res)=>{
 })
 // HTTP GET route to render EJS template with data
 app.get('/data', (req, res) => {
-    // Assuming data comes from query parameters for GET requests
-    // const { name, email, mobile, date, time, problem } = req.query;
-    // const requestData = { name, email, mobile, date, time, problem };
     const requestData={
         name:req.query.name,
         email:req.query.email,
