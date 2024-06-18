@@ -174,7 +174,7 @@
     position: absolute;
     top: 90%;
     padding-left: 10%;
-    gap: 80px;
+    gap: 290px;
 }
 #card{
     color:blue;
@@ -193,6 +193,7 @@
     height: 50px;
     border-radius: 10px;
     font-size: 20px;
+    border-color: white;
 }
 .container{
     display: flex;
@@ -215,7 +216,6 @@
 }
 .back{
     background-color: rgb(42, 42, 140);
-    
 }
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link  {

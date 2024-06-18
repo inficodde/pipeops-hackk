@@ -54,6 +54,7 @@ app.post('/success', (req, res) => {
     res.sendFile(__dirname + "/public/success.html");
 });
 app.post ('/admin',(req,res)=>{
+    console.log(req.body)
     res.redirect('/dashboard')
 })
 // HTTP GET route to render EJS template with data
