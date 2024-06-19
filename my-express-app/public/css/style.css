@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #0463FA;
+    --primary: #6A0DAD;
     --light: #EFF5FF;
     --dark: #1B2C51;
 }
@@ -231,7 +231,7 @@
     .outer{
         width: 37%;
         height: 45px;
-        background-color: #0463FA;
+        background-color: #6A0DAD;
         padding-left: 15px;
         margin-top: -5%;
     }
